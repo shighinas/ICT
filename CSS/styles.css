@@ -1,0 +1,134 @@
+body{
+    /* background-image: url("images/bground.jpg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1a1c20;
+    margin: 0px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 20px 0;
+    background-color: blue;
+    color: white;
+}
+
+.content {
+    background-color: white;
+    opacity: 0.8;
+    height: 200px;
+    padding-top: 20px;
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 40%;
+    color: #060930;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content h3 {
+    margin: 20px;;
+}
+
+.container {
+    margin: 300px 20px 30px 50px ;
+}
+
+footer {
+    color: white;
+    margin-top: 45rem;
+    background-color: black;
+    height: 60px;
+}
+
+footer p {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+header {
+    height: 80px;
+    background-color: #0a0808;
+}
+
+header img {
+    width: 4rem;
+    margin-left: 7rem;
+    margin-top: 10px;
+}
+
+.LogInForm {
+    border: #14274e solid;
+    font-size: 1.3rem;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    background-color: #cadefc;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    line-height: 1.3;
+}
+
+.LogInForm h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.LogInForm input {
+    height: 20px;
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+.LogInForm p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.nav {
+    position : absolute;
+    top : 25px;
+    right: 10px;
+}
+
+.nav a {
+    border : solid white;
+    color : white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin : 10px;
+}
+
+.nav a:hover{
+    color : black;
+    background-color: #bbbfca;
+    transition: all 0.5s ease-in-out;
+}
+
+.P-box {
+    text-align: left;
+    height: 340px;
+    background-color: #bbbfca;
+    width :18rem;
+    border: 3px solid white;
+    float : left;
+    margin: 5px 15px;
+    padding: 15px;
+}
+
+.P-box a {
+    text-decoration: none;
+    color: red;
+}
+
+.P-box p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+ul {
+    list-style-type: square ;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
